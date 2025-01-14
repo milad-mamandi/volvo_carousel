@@ -1,4 +1,4 @@
-import Carousel from './_components/carousel';
+import Carousel from './_components/carousel'
 
 const mockData = [
 	{
@@ -41,12 +41,12 @@ const mockData = [
 		image: '5.avif',
 		link: 'https://www.volvocars.com/se/cars/xc90-hybrid/',
 	},
-];
+]
 
 export default function Home() {
 	return (
 		<div className="flex h-full min-h-[100dvh] items-center justify-center bg-white">
 			<Carousel data={mockData} />
 		</div>
-	);
+	)
 }
