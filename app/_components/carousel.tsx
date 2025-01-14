@@ -149,7 +149,11 @@ const Slider = ({
 		const deltaX = debouncedX - endX
 
 		if (Math.abs(deltaX) > SWIPE_THRESHOLD) {
-			deltaX > 0 ? nextPosition() : prevPosition()
+			if (deltaX > 0) {
+				nextPosition()
+			} else {
+				prevPosition()
+			}
 			setStartX(null)
 		}
 	}
