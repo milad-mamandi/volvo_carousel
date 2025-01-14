@@ -13,7 +13,7 @@ const mockData = [
 	{
 		id: '2',
 		model: 'V60',
-		moto: 'Plug-in hybrid station wagon',
+		moto: 'All-electric SUV',
 		description: 'Recommended price 635,000 SEK',
 		image: '2.png',
 		link: 'https://www.volvocars.com/se/cars/v60-hybrid/',
@@ -21,7 +21,7 @@ const mockData = [
 	{
 		id: '3',
 		model: 'XC60',
-		moto: 'Plug-in hybrid station wagon',
+		moto: 'All-electric SUV',
 		description: 'Recommended price 686,000 SEK',
 		image: '3.png',
 		link: 'https://www.volvocars.com/se/cars/xc60-hybrid/',
@@ -29,7 +29,7 @@ const mockData = [
 	{
 		id: '4',
 		model: 'XC90',
-		moto: 'Plug-in hybrid station wagon',
+		moto: 'All-electric SUV',
 		description: 'Recommended price 994,000 SEK',
 		image: '4.avif',
 		link: 'https://www.volvocars.com/se/cars/xc90-hybrid/',
@@ -37,7 +37,7 @@ const mockData = [
 	{
 		id: '5',
 		model: 'EX30',
-		moto: 'Plug-in hybrid station wagon',
+		moto: 'All-electric SUV',
 		description: 'Recommended price 449,000 SEK',
 		image: '5.avif',
 		link: 'https://www.volvocars.com/se/cars/xc90-hybrid/',
